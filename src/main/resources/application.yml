@@ -27,5 +27,3 @@ spring:
 #      org.quartz.threadPool.threadCount: 5
 #      org.quartz.jobStore.driverDelegateClass: org.quartz.impl.jdbcjobstore.StdJDBCDelegate
   # Application config
-application:
-  enable-security: true # please be careful to use this value

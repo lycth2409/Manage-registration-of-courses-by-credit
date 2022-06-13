@@ -1,5 +1,6 @@
 package lycth.mrc.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -28,6 +29,7 @@ public class PeopleEntity {
     @Column(name = "password")
     private String password;
 
+    @JsonFormat(pattern = "yyyy-MM-dd")
     @Column(name = "date_of_birth")
     private String dateOfBirth;
 
